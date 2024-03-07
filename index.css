@@ -1,0 +1,675 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+*/
+
+/*.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+/*/
+#about{
+	font-size: 3rem;
+	text-align: center;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url("C:/prowebsite2024/all-images/banner1.jpg.jpeg");
+	background-size: cover;
+	color:white;
+}
+header:hover{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5)),url("C:/prowebsite2024/all-images/foll.jpeg");
+	background-size: cover;
+	color:white;
+	transition: 0.9s ease-in;
+}
+nav{
+	widht:100%;
+	height: 100px;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 70px;
+	font-family: "Poppins", sans-serif;
+}
+.logo{
+	font-size: 2em;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.menu a{
+	text-decoration: none;
+	color:white;
+	font-size: 1.4em;
+	padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+	background: green;
+	border-radius: 8px;
+	margin: 0 1rem;
+}
+.menu i{
+	font-size: 1.5rem;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+.menu a:hover{
+	background: #6ab04c;
+	border-radius: 8px;
+	transition: 0.9s ease-in;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display:flex;
+	justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left{
+	flex-basis: 60%;
+}
+.right{
+	flex-basis: 30%;
+}
+.left h2{
+	 font-family: "Poppins", sans-serif;
+	 color:#6ab04c;
+}
+.left h1{
+	  font-family: "Kalam", cursive;
+	  font-size: 3em;
+}
+.left p{
+	font-family: "Poppins", sans-serif;
+	line-height: 2.5em;
+
+}
+#contact{
+	text-decoration: none;
+	background: #6ab04c;
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+}
+#myp{
+	text-decoration: none;
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+	border: 1px dashed white;
+}
+#bio{
+	cursor: pointer;
+	padding:150px 70px;
+	width: 100%;
+	height: 100%;
+	display:flex;
+	justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+
+}
+.leftbio{
+	flex-basis: 40%;
+
+}
+.rightbio{
+	flex-basis: 60%;
+	
+}
+.leftbio img{
+	width: 100%;
+	height: 800px;
+	border-radius: 8px;
+}
+.rightbio {
+	text-align: right;
+    padding: 0 40px;
+}
+.rightbio p{
+	margin: 15px 0;
+	line-height: 4.5rem;
+}
+.rightbio h1{
+	font-size: 2.3rem;
+}
+.info{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	text-align: left;
+}
+#follow{
+	text-align: center;
+}
+#follow i{
+	color: #6ab04c;
+	font-size: 1.5rem;
+	margin: 0.05rem;
+	padding: 13px;
+	
+
+}
+
+.link-h{
+	text-align: center;
+    margin-top: 3rem;
+ }
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius:8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+   border-width: 2px;
+   border-color: grey;
+   border-style: dashed;
+}
+#services{
+	padding: 50px 70px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.04);
+	font-family: 'poppins' , sans-serif;
+	text-align: center;
+}
+.intro h1{
+	font-size: 3rem;
+}
+.card{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 3rem;
+}
+.cardbody{
+
+	flex-basis: 30%;
+	background: white;
+	padding: 1rem;
+	border-radius: 8px;
+		transition: 0.9s  ease-out;
+}
+.cardbody:hover{
+
+	flex-basis: 30%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),url("C:/prowebsite2024/all-images/banner1.jpg.jpeg");
+	padding: 1rem;
+	border-radius: 10px;
+
+}
+.cardbody h3{
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+}
+/*.cardbody h3:hover{
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+	color: white;
+}*/
+.cardbody i{
+	font-size: 2.5rem;
+	color: #6ab04c;
+}
+.cardbody:hover{
+color: white;
+	transition: 0.7s  ease-out;
+}
+.cardimg img{
+	width: 100%;
+}
+.cardimg img:hover{
+	width: 95%;
+	border-radius: 8px;
+	transition: 0.9s  ease-out;
+}
+
+
+/*Our GAllery sEction*/
+#Gallery{
+	padding: 50px 70px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.04);
+	font-family: 'poppins' , sans-serif;
+	text-align: center;
+}
+.Galintro h1{
+	font-size: 3rem;
+}
+.cardgal{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 3rem;
+}
+.cardbodygal{
+
+	flex-basis: 30%;
+	background: white;
+	padding: 1rem;
+	border-radius: 8px;
+	transition: 0.9s  ease-out;
+}
+.cardbodygal:hover{
+
+	flex-basis: 30%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("C:/prowebsite2024/all-images/banner1.jpg.jpeg");
+	padding: 1rem;
+	border-radius: 10px;
+		
+}
+.cardbodygal h3{
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+}
+.cardbodygal i{
+	font-size: 2.5rem;
+	color: #6ab04c;
+}
+.cardimggal img{
+	width: 100%;
+}
+.cardimggal img:hover{
+	width: 95%;
+	border-radius: 8px;
+	transition: 0.9s  ease-out;
+}
+
+
+
+/*  Animated desing our team member
+  */ 
+.Ourteam{
+	font-size: 2rem;
+}
+#animatedteam{
+	font-family: cursive;
+	width: 100%;
+	min-height: 60vh;
+	color:white;
+	background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url("C:/prowebsite2024/all-images/banner1.jpg.jpeg");
+	background-size: cover;
+  display: inline-flex;
+	place-items: center;
+	justify-content: space-around;
+	border-radius: 6px;
+}
+.cardanmi{
+	width: 400px;
+	height: 500px;
+	border-radius: 8px;
+	background: #effffff;
+	backdrop-filter: blur(10px);
+	transition: 0.7s;
+}
+.cardanmi:hover{
+	width: 400px;
+	height: 500px;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+}
+/*.t-icons{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+}
+.t-icons i{
+	font-size: 20px;
+
+}*/
+.profile{
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	
+}
+.profile img{
+	border-radius: 50%;
+	border:1px solid white;
+}
+.profile:before{
+	content: ' ';
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #2ecc71;
+	border: 1px solid black;
+	position: absolute;
+	top: 49%;
+	right: 38%;
+	z-index: 99;
+}
+.profile h1{
+	color:#2ecc71;
+}
+.profile h1 span{
+	color: white;
+}
+.s-icon{
+	margin-top: 30px;
+	text-align: center;
+}
+.s-icon i{
+	font-size: 20px;
+	background: whitesmoke;
+	color: black;
+	padding: 10px;
+	border-radius: 50%;
+	margin: 0 8px;
+	border: 1px solid white;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.link.s-icon:hover{
+	background: transparent;
+	color: white;
+}
+.btn{
+	text-align: center;
+	margin-top: 40px;
+}
+.btn a:first-child{
+	text-decoration: none;
+	background: #2ecc71;
+	color: white;
+	padding:10px 20px;
+	letter-spacing: 2px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.btn a:last-child{
+	text-decoration: none;
+	background:#e74c3c;
+	color: white;
+	padding:10px 20px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+.share{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+	text-align: center;
+}
+
+
+
+
+/* Contact form DEsign */
+
+#conheader{
+	cursor: pointer;
+	padding:150px 70px;
+	width: 100%;
+	height: 100%;
+	display:flex;
+	justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+
+}
+.leftcon{
+	flex-basis: 40%;
+
+}
+.rightcon{
+	flex-basis: 60%;
+	
+}
+.leftcon img{
+	width: 100%;
+	height: px;
+	border-radius: 8px;
+}
+.rightcon {
+	text-align: right;
+    padding: 0 40px;
+}
+.rightcon p{
+	margin: 15px 0;
+	line-height: 6.5rem;
+}
+.rightcon h1{
+	font-size: 3.3rem;
+}
+.infocon{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	text-align: left;
+}
+#followcon{
+	text-align: center;
+}
+#followcon i{
+	color: #6ab04c;
+	font-size: 1.5rem;
+	margin: 0.05rem;
+	padding: 13px;
+	
+
+}
+
+.link-h-con{
+	text-align: center;
+    margin-top: 3rem;
+ }
+#cvcon{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius:8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+   border-width: 2px;
+   border-color: grey;
+   border-style: dashed;
+}
+
+
+
+
+/*Login form add*/
+.Ourcontact{
+	font-size: 2rem;
+	text-align: center;
+}
+#lganmi{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	background: rgba(0, 0, 0, 0.1);
+}
+.login{
+	position:relative;
+	width: 1000px;
+	padding: 80px 50px 50px;
+	box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3),-15px -15px 20px #fffb;
+	box-shadow: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	border-radius: 20px;
+}
+.login form{
+	position: relative;
+	width: 100%;
+}
+.login form h2{
+	font-size: 2em;
+	margin-bottom: 30x;
+	line-height: 0.9em;
+}
+.login form h2 span{
+	font-weight: 300;
+	font-size: 0.65em;
+}
+.login form .inputbox{
+	position: relative;
+	display: flex;
+}
+.login form .inputbox input{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-radius: 10px;
+	font-size: 1em;
+}
+.login form .inputbox input[type="text"],
+.login form .inputbox input[type="password"]{
+	width: 100%;
+	padding: 15px 20px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -5px -5px 10px #fff;
+	border-radius: 10px;
+}
+.login form .inputbox i{
+	position: absolute;
+	left: 20px;
+	top: 25%;
+}
+.login form label{
+	display: flex;
+	align-items: center;
+}
+.login form input[type="checkbox"]{
+	margin-right: 5px;
+}
+.login form .inputbox input[type="submit"]{
+	margin-top: 20px;
+	box-shadow:5px 5px 10px rgba(0, 0, 0, 0.1),-5px -5px 10px #fff;
+	width: 100%;
+	padding: 15px 20px;
+	cursor: pointer;
+	font-weight: 600;
+	border-radius: 10px;
+}
+
+.login form .inputbox input[type="submit"]:focus{
+	box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.1),inset -5px -5px 10px #fff;
+}
+.login .fingerprint{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 15px;
+	cursor: pointer;
+}
+.login .fingerprint .fingerprintbox{
+	box-shadow:5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px #fff;
+	border: 3px solid #edf1f4;
+	padding: 15px 20px 10px;
+	border-radius: 10px;
+	background: linear-gradient(315deg,#03a9f4,#0082bc);
+}
+.login .fingerprint .fingerprintbox img{
+   max-width: 90px;
+   filter: invert(1);
+   animation: animate 1s linear infinite;
+}
+@keyframes animate{
+	0%,100%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0.5;
+	}
+}
+.login .fingerprint p{
+	font-weight: 600;
+}
+
+
+
+
+/*   ---------- Our footer section area crearta  a using a css -------------- */
+footer{
+	background:black;
+	color: white;
+	font-size: 2rem;
+	padding:0.5rem;
+	 font-family: "Kalam", cursive;
+	 text-align: center;
+	 transition: 0.9s ease-in;
+
+}
+footer:hover{
+	background:dimgray;
+	color: white;
+	font-size: 2rem;
+	padding:0.5rem;
+	 font-family: "Kalam", cursive;
+	 text-align: center;
+
+}
+
+
+
+.foot-top{
+	font-family: cursive;
+	width: 100%;
+	min-height: 20vh;
+	color:seagreen;
+	background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url("C:/prowebsite2024/all-images/banner1.jpg.jpeg");
+	background-size: cover;
+  display:inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 25px;
+  }
+.foot-maine a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+ transition: 0.9s;
+}
+.foot-maine a:hover{
+	text-decoration: none;
+	color: darkblue;
+	cursor: pointer;
+	border-bottom: 2px white solid;
+	border-radius: 40px;
+}
+
